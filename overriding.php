@@ -60,20 +60,25 @@
     //-----------------------------------------------------------------------------------
     //objek yang dibuat 
     $barang1 = new komik("Kimi No Nawa","Makoto Shinkai","Comix Wave",200000,100); 
+    echo $barang1->cetak();
+    echo "<hr>";
     $barang2 = new game("Apex Legend","Seseorang Di Ubisoft","Ubisoft","Free","unlimited");
+    echo $barang2->cetak();
+    echo "<hr>";
     $barang3 = new barang("Apex Legend","Seseorang Di Ubisoft","Ubisoft");
-     
+    echo $barang3->cetak(); 
+    echo "<hr>";
     //-----------------------------------------------------------------------------------
     //manggil output berupa variabel atau property yang telah dibuat objeknya dengan method
     //$variabel_objek->method()
 
-    $info1 = new komik();
+   /* $info1 = new komik();
     echo $info1->cetak($barang1);
     echo "<hr>";
     $info2 = new game();
     echo $info2->cetak($barang2);
     echo "<hr>";
     $info3 = new barang();
-    echo $info3->cetak($barang3);
+    echo $info3->cetak($barang3);*/
     
 ?>
